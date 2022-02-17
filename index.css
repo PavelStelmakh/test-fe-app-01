@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #000;
+    color: #f6f4f6;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 40px;
+}
+
+header h3 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header ul,
+header li {
+    display: inline;
+}
+
+header ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #000;
+    color: #f6f4f6;
+    height: 165px;
+}
+
+.footer__products {
+    float: left;
+    padding-left: 80px;
+}
+
+.footer__products section {
+    float: left;
+}
+
+.footer__contacts {
+    float: right;
+    padding-right: 80px;
+}
+
+.footer__contacts ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer__contacts ul li {
+    display: inline-block;
+}
+
+.footer__contacts .facebook,
+.footer__contacts .twitter,
+.footer__contacts .instagram {
+    background-image: url('./s.webp');
+    background-size: 200px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer__contacts .facebook {
+    background-position: -9px -105px;
+}
+
+.footer__contacts .twitter {
+    background-position: -46px -105px;
+}
+
+.footer__contacts .instagram {
+    background-position: -85px -105px;
+}
+
+hr {
+    width: 95%;
+    border-width: 0;
+    border-bottom-width: 1px;
+    opacity: 0.5;
+}
+
+.footer__rights-reserved {
+    text-align: center;
+}
+
+main {
+    scroll-behavior: smooth;
+    height: calc(100% - 235px);
+    overflow: auto;
+}
+
+.section__question div:first-child {
+    height: 400px;
+    background-image: url('./p1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.section__question div:last-child {
+    height: calc(100vh - 635px);
+    background-color: #222;
+    padding: 40px;
+    color: #f6f4f6;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.section__question h1 {
+    color: #919ba3;
+    margin-top: 275px;
+    margin-right: 100px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: right;
+    background-color: rgba(34, 34, 34, 0.85);
+}
+
+.section__answer div:first-child {
+    height: 400px;
+    background-image: url('./p2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.section__answer h2 {
+    margin: 0;
+    height: 100px;
+    line-height: 100px;
+    background-color: #000;
+    color: #f6f4f6;
+    padding-left: 40px;
+}
+
+.section__answer div:last-child {
+    height: 400px;
+    background-image: url('./p3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+.section__products {
+    padding: 20px 80px;
+}
+
+.section_news {
+    padding: 20px 80px;
+    font-size: 1.1rem;
+}
+
+.timesnap {
+    opacity: 0.8;
+}
+
+.chips {
+    float: left;
+    background-color: rgba(34, 34, 34, 0.85);
+    border-radius: 2rem;
+    color: #f6f4f6;
+    padding: 8px 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.section__products .chips {
+    height: 46px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #f6f4f6;
+    color: #f6f4f6;
+    font-size: 1rem;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+button:not(:disabled):hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.button__order {
+    color: #e8ab15;
+    border-color: #e8ab15;
+}
+
+button:disabled {
+    cursor: initial;
+    opacity: 0.7;
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.sections__divider {
+    border-color: #000;
+}
