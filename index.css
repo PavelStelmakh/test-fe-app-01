@@ -104,7 +104,7 @@ main {
 }
 
 .section__question div:first-child {
-    height: 400px;
+    height: 50vh;
     background-image: url('./p1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@ main {
 }
 
 .section__question div:last-child {
-    height: calc(100vh - 635px);
+    min-height: calc(50vh - 235px);
     background-color: #222;
     padding: 40px;
     color: #f6f4f6;
@@ -122,8 +122,8 @@ main {
 
 .section__question h1 {
     color: #919ba3;
-    margin-top: 275px;
-    margin-right: 100px;
+    margin-top: 28vh;
+    margin-right: 10%;
     font-size: 2.5rem;
     text-transform: uppercase;
     text-align: right;
